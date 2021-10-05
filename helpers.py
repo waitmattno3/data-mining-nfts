@@ -1,3 +1,12 @@
+'''
+title           : helpers.py
+description     : Helper functions used for parsing the outcome of OpenSea APIs.
+author          : Matthew Lamar
+date_created    : 20211005
+date_modified   : 20211005
+version         : 1.0
+python_version  : 3.8.9
+'''
 def parse_abs_data(abs_dict):
     
     abs_id = abs_dict['token_id']
